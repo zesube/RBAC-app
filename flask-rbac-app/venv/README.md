@@ -1,100 +1,43 @@
-# Encryption and Decryption Project
+# symmetric-encryption-demo
 
-## Overview
+![PyPI Version](https://img.shields.io/badge/PyPI-not_published-lightgrey)
+![Tests](https://img.shields.io/badge/tests-not_configured-lightgrey)
+![Docs](https://img.shields.io/badge/docs-not_configured-lightgrey)
+![Coverage](https://img.shields.io/badge/coverage-not_measured-lightgrey)
 
-This project demonstrates how to encrypt and decrypt a short message using two different cryptography approaches:
+## Description
 
-- symmetric encryption
-- asymmetric encryption
+This project is a small Python demo that encrypts and decrypts a short message using symmetric encryption. Its purpose is to show, in plain language, how one shared secret key can both protect and recover data. It also produces assignment-ready output that lists the key used, the input message, and the encryption and decryption results. This project fits best as a beginner-friendly security exercise rather than a production package.
 
-The program is written in Python and uses the local `openssl` command-line tool to perform the cryptographic operations.
+## Features
 
-The goal of the project is to show:
+- Encrypts a short plaintext message with `AES-256-CBC`
+- Decrypts the ciphertext back to the original message
+- Generates a random symmetric key and IV for each run
+- Saves the input, key details, ciphertext, and decrypted output to a text file
+- Produces simple artifacts that are easy to review or submit for class
 
-- the keys used
-- the input message
-- the encrypted output
-- the decrypted output
-
-All of that information is saved to a text file so it can be submitted for the assignment.
-
-## What the Project Demonstrates
-
-### Symmetric Encryption
-
-Symmetric encryption uses one shared secret key for both encryption and decryption.
-
-In this project, the symmetric example uses:
-
-- `AES-256-CBC`
-
-The script generates:
-
-- a random 256-bit AES key
-- a random initialization vector (IV)
-
-It then:
-
-1. encrypts the plaintext message
-2. decrypts the ciphertext back into readable text
-
-### Asymmetric Encryption
-
-Asymmetric encryption uses two related keys:
-
-- a public key
-- a private key
-
-In this project, the asymmetric example uses:
-
-- `RSA-2048`
-
-The script generates an RSA key pair, then:
-
-1. encrypts the plaintext using the public key
-2. decrypts the ciphertext using the private key
-
-## How the Code Works
-
-The Python script in `app.py` performs the following steps:
-
-1. Creates a short message and writes it to `artifacts/message.txt`
-2. Generates a random AES key and IV for symmetric encryption
-3. Encrypts and decrypts the message with AES
-4. Generates an RSA private/public key pair
-5. Encrypts and decrypts the message with RSA
-6. Saves all assignment results to `artifacts/encryption_results.txt`
-
-## How to Run the Project
-
-Open a terminal in the project folder and run:
+## Quick Start
 
 ```bash
 python3 app.py
 ```
 
-## Output Files
+```python
+import subprocess
 
-After running the program, these files are created in the `artifacts/` folder:
+subprocess.run(["python3", "app.py"], check=True)
+```
 
-- `message.txt` : the original plaintext input
-- `symmetric_cipher.bin` : the AES encrypted message
-- `symmetric_decrypted.txt` : the AES decrypted message
-- `private_key.pem` : the RSA private key
-- `public_key.pem` : the RSA public key
-- `asymmetric_cipher.bin` : the RSA encrypted message
-- `asymmetric_decrypted.txt` : the RSA decrypted message
-- `encryption_results.txt` : the full assignment summary showing keys, inputs, and outputs
+After running the script, review:
 
-## Main Files
-
-- `app.py` : the Python program that runs the encryption and decryption demo
-- `README.md` : explains the project
-- `artifacts/encryption_results.txt` : contains the required assignment evidence
+- `artifacts/encryption_results.txt`
+- `artifacts/message.txt`
+- `artifacts/symmetric_cipher.bin`
+- `artifacts/symmetric_decrypted.txt`
 
 ## Notes
 
 - This project is for learning and demonstration purposes.
-- In real applications, keys should be protected carefully and not normally printed or stored in plain text.
-- Symmetric encryption is typically used for fast data encryption.
-- Asymmetric encryption is typically used for key exchange, identity, and secure communication setup.
+- The badges are placeholders because PyPI publishing, CI, docs, and coverage are not set up for this assignment.
+- In real applications, encryption keys should not normally be printed or stored in plain text.
