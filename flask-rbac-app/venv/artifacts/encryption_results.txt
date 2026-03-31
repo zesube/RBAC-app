@@ -1,0 +1,58 @@
+Encryption / Decryption Assignment Output
+========================================
+
+Input Message
+- Plaintext: Security assignment demo message.
+
+Symmetric Encryption
+- Algorithm: AES-256-CBC
+- Key (hex): f32dd5cee11584264887a8651d6686783ca6b2bff79d4f80026c8817a2a9e36c
+- IV (hex): 27ba6949a4274fca5a9f544a376b10f0
+- Ciphertext (base64): t65btQDEwCY+u0hiroQ3pCEQBfHu0ZTGLPwibuHPG+iOE+0BMwiKfCv6I9zMn0e+
+- Decrypted text: Security assignment demo message.
+
+Asymmetric Encryption
+- Algorithm: RSA-2048
+- Private key (PEM):
+-----BEGIN PRIVATE KEY-----
+MIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDQ0rcM4/3ZwIF6
+68ov5N0au71gDdvVx0Kj2EkziJWBHpTctR4me8clnabmNPSw0JiljDDgDwFjGvni
+B54e1g6HcaUtjBGzPEK62zTs3Zpj4W29PxBrbcnDx3JVfOTMTI8ZoJ56S4psi/tA
+myqn+GX72jc/p1qN3tlXqBmgv+/H3b57yfLWHpB4DrBTYRojY1OQR4XNN7vfSZgS
+K8k5kL5vT4UQKRkDYh545fAb4E3BMPKcoPSIfwZnZAuLk45bjA/7kxuA4lS3mw7p
+8Ra2BPtp/KTUjyi3821e7lYbMTPMQlCnYpa7QdnmzkdVO+aHtDWtIXDDzZOqT0Xz
+tUicR3dNAgMBAAECggEAKN2Xq3rhlm+9FwpWNLW3zE/BsW683vLh+HDu8FoSEeTj
+cmayWgsej56wxvvFh+Wmfb034l0lYxjoHmLpv3SZ/skPb2CqJRaNo4Ya7yC14kZ/
+JIoXI0LmuXzKQ+8PUmjIF1aOtPWcBv6E4qGLATiT8qvDZJ5SUxGxnF0d+M6e9NB2
+O1h/F88KEpoqboceRRPOO/fCS+rL02yOELBUVZ74a4aIC6z6GW5WveRHtMb5zrqz
+9k9XEguWbircJem4wIhKrgicExTw6kDoPEvzWVRUHIrzEvl4vYGBO4ZRxP97ygQn
+SPzGwwmp8uKwqfEml/dfzToso1w5DdkwR067NSdOqQKBgQD6Qz9An99Zur7BCeTQ
+FmtQRMTsghbvp9sbw+szaAHoqhah8mT21Qmj/8hv11pN0Fs9WI/w7cVyIp1sBguF
+c8CX2v+Q+NFeiRX0A0hJgCmI8wEOOPUKoqz0hnkHbWn36os1K2Y4AgjFbJJ42P1D
+ucXeGa5aWbeuNxQtugfGms+eyQKBgQDVnEP3hilhF9bCEUAcrR8R0Nt0B0j7zFrt
+6qu7v+/F4wY+4teI5S+pFOCmLT7nQBfeZP2PUjHgmlx56Qw0rI0A03pGGQFJohm6
+JI79Vv+P46mDTCSR8euNOEIaOx6Pl3FjjKG6lL8Ut0zlmiJpMhqjrIAo0ohDLH7a
+eikNxv5CZQKBgHFOkQzJVW5ixorP1/D+tYeaGy6Zl5jZ/rILeinEJVkZ6TVZcazv
+t3WxESbR8ejZNPYJauJCROrwESYfdoftaH1Yge05OlH67x2Tft8IT8XZf9jYoNk3
+3ea4G4PpXdkJMA3aoGUrRp1cEtT0KXbIXXW5Wt89T5RpC5HIcEzTOr1BAoGBALAC
+l9pwOM5hJzs3nZ1DZTN35ivgCNo5077wu9rzV222GCJfJfwN5MysgENNSuSfYkuE
+6Y1by+9nIcXuKnmIqJLCrqDt36q9n/dKQmwrcF8u1zFx3zxGm7H8ZjNY/WCSCANg
+EK89+4jlVL5n1+zYNS0iaWO5vj+jfU8mk4dfrYglAoGAY1METtjiZjSvhBdAIJY4
+U851atTmMkk+ZhHm94vWnqngp2UVzOXGgsA/AzSZMu1UvremGe8or9U1W1z30fJo
+yGvPzq6FwsbLTNdnpE9k14ErXZS/h8/TGP0Bs2xU+ipwKH8/awi5stmR4A1Kkxvr
+FxQNZd7/jrW8oKuCegtIh8E=
+-----END PRIVATE KEY-----
+
+- Public key (PEM):
+-----BEGIN PUBLIC KEY-----
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0NK3DOP92cCBeuvKL+Td
+Gru9YA3b1cdCo9hJM4iVgR6U3LUeJnvHJZ2m5jT0sNCYpYww4A8BYxr54geeHtYO
+h3GlLYwRszxCuts07N2aY+FtvT8Qa23Jw8dyVXzkzEyPGaCeekuKbIv7QJsqp/hl
++9o3P6dajd7ZV6gZoL/vx92+e8ny1h6QeA6wU2EaI2NTkEeFzTe730mYEivJOZC+
+b0+FECkZA2IeeOXwG+BNwTDynKD0iH8GZ2QLi5OOW4wP+5MbgOJUt5sO6fEWtgT7
+afyk1I8ot/NtXu5WGzEzzEJQp2KWu0HZ5s5HVTvmh7Q1rSFww82Tqk9F87VInEd3
+TQIDAQAB
+-----END PUBLIC KEY-----
+
+- Ciphertext (base64): l4rnqHScF8ozeUK6VrpSHWj/yPZC37mKF/OoCKBCqjOeGKE14B/S3PdZGmTHvkoeKP2/B/QE+O9JKc/YU3STqY6I1nKDUV8YyFZl/GPoJ7SHu80ntwNfTF3K7iXmulAMewZiTslRamuIZr0Y5f+X1M+enRPlvHhbRiOQAvszr5XUIndYj1RcQ5/9FdF0mZ4pO4Y0qZdQudelQKp6eBrZJ0zWiF6NXcbZGjqx0+VtVfgrjvIDp5aeICm+jkA4Lkde0ZXJvJmc4wzTvOeyoEfCKVfVwJsF1CAkLFKFI4Ys64Q037HqOuAjoTEJBb5m0FwmxeJFOZjCE/3Y1Dy9nY6YWg==
+- Decrypted text: Security assignment demo message.
