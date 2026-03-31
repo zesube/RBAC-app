@@ -1,10 +1,3 @@
-# symmetric-encryption-demo
-
-![PyPI Version](https://img.shields.io/badge/PyPI-not_published-lightgrey)
-![Tests](https://img.shields.io/badge/tests-not_configured-lightgrey)
-![Docs](https://img.shields.io/badge/docs-not_configured-lightgrey)
-![Coverage](https://img.shields.io/badge/coverage-not_measured-lightgrey)
-
 ## Description
 
 This project is a small Python demo that encrypts and decrypts a short message using symmetric encryption. Its purpose is to show, in plain language, how one shared secret key can both protect and recover data. It also produces assignment-ready output that lists the key used, the input message, and the encryption and decryption results. This project fits best as a beginner-friendly security exercise rather than a production package.
